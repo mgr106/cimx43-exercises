@@ -1,0 +1,26 @@
+
+@import url("https://fontlibrary.org//face/butler");
+
+body {
+    font-family: "ButlerRegular";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    color: #FAE3C6;
+    background: #465362;
+    max-width: 1000px;
+    padding-left: 15px;
+
+  }
+
+ 
+.grid_2x1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: left;
+  }
+
+  img {
+    max-width: 50%;
+  }
