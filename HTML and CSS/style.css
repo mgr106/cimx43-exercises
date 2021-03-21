@@ -25,3 +25,18 @@ body {
   .name {
     font-size: 20px;
   }
+
+
+  /*phone media */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color:#B27092 ;
+  }
+  .grid_2x1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: left;
+  }
+}
