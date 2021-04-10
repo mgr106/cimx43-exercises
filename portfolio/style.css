@@ -32,12 +32,14 @@ text-decoration: underline;
 
 h3 {
   margin-top: -20px;
+
 }
 
 .typewrite {
 margin-left: -5px;
 color: #FF5714;
 font-size: larger;
+margin-top:-20px;
 
 }
 
@@ -49,4 +51,8 @@ font-size: larger;
 
 .title {
   color: #5F634F;
+}
+
+.contact {
+  margin-bottom: -17px;
 }
