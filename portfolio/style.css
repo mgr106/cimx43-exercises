@@ -12,8 +12,8 @@ body {
     font-size: 16px;
   }
 img {
-  max-width: 50%;
   margin-left: -3px;
+  max-width: 500px;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h3 {
 margin-left: -5px;
 color: #FF5714;
 font-size: larger;
-margin-top:-30px;
+margin-top:-20px;
 text-decoration: none;
 
 }
@@ -66,3 +66,10 @@ text-decoration: none;
   .cell {
     margin-right: -10px;
   }
+
+  .gridbox2x1 {
+    display: flex;
+    grid-template-columns: 2fr 0.5fr;
+  }
+
+
