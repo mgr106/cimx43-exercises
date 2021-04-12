@@ -62,3 +62,7 @@ text-decoration: none;
 .linklink {
   text-decoration: underline;
   }
+
+  .cell {
+    margin-right: -10px;
+  }
