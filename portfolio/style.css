@@ -19,8 +19,8 @@ img {
 h1 {
   margin-top: -17px;
   size: 200px;
-  margin-bottom: -17px;
-  margin-left: -5px;
+  margin-bottom:-5px;
+  margin-left:5px;
 }
 
 a {
@@ -40,7 +40,7 @@ h3 {
 margin-left: -5px;
 color: #FF5714;
 font-size: larger;
-margin-top:-20px;
+margin-top:-5px;
 text-decoration: none;
 
 }
