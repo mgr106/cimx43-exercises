@@ -1,7 +1,6 @@
 @import url("https://fontlibrary.org//face/butler");
 * {
     max-width: 1000px;
-    background-color: oldlace;
     padding: 5px;
 }
 
@@ -10,6 +9,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
+    background-color: oldlace;
   }
 
 
@@ -111,13 +111,13 @@ text-decoration: none;
   
   .img3 {
     position: relative;
-    top: 5px;
-    left: 15px;
-    width: 25%;
+    top: -345px;
+    left: -80px;
+    width: 16%;
   }
 
   .rotate {
-    animation: rotation 2s infinite linear;
+    animation: rotation 10s infinite linear;
   }
 
 
