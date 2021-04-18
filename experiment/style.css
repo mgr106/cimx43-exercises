@@ -97,6 +97,39 @@ text-decoration: none;
   }
 
 
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .img2 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .img3 {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    width: 25%;
+  }
+
+  .rotate {
+    animation: rotation 2s infinite linear;
+  }
+
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 /* Popup container https://www.w3schools.com/howto/howto_js_popup.asp */
 .popup {
   position: relative;
