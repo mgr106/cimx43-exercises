@@ -50,3 +50,29 @@ a {
       display: grid;
       grid-template-columns: auto auto;
   }
+
+.nav_container {
+    display: grid;
+    grid-template-columns: 850px 150px;
+
+}
+
+.img3 {
+    width: 60%;
+    /* align-content: right;
+    margin-left: 500px; */
+}
+  
+.rotate {
+    animation: rotation 10s infinite linear;
+  }
+
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
