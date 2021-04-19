@@ -5,4 +5,4 @@ The most frustrating was either the javascript for the changing text because a l
 Would you do this exercise again?
 I would do this exercise again, I think maybe having a smaller pool of javascript would be nice because it is quite intimidating, but overall I enjoyed the project.  
 What would you change if you had another week?
-I would cont. my pages and most likely try to find out a way to get my spinning smile in the top right corner without the method I used. And totally make it @media friendly. 
+I would contiune my pages and most likely try to find out a way to get my spinning smile in the top right corner without the method I used. I would also want to make it @media friendly, as well find a better way to display my portfolio images, maybe using javascript element. 
