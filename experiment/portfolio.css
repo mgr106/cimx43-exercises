@@ -46,6 +46,12 @@ a {
   img {
       max-width: 100%;
   }
+
+h2 {
+color: #FF5714;
+margin-left: 15px;
+}
+
   .container {
       display: grid;
       grid-template-columns: auto auto;
