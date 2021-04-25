@@ -97,11 +97,11 @@ text-decoration: none;
   }
 
 
-  .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
+  .nav_container {
+    display: grid;
+    grid-template-columns: 850px 150px;
+
+}
   
   .img2 {
     position: relative;
@@ -109,12 +109,7 @@ text-decoration: none;
     left: 0;
   }
   
-  .img3 {
-    position: relative;
-    top: -345px;
-    left: -80px;
-    width: 16%;
-  }
+ 
 
   .rotate {
     animation: rotation 10s infinite linear;
@@ -129,6 +124,11 @@ text-decoration: none;
       transform: rotate(359deg);
     }
   }
+
+  #smile {
+    width: 8%;
+    position: absolute;
+    }
 
 /* Popup container https://www.w3schools.com/howto/howto_js_popup.asp */
 .popup {
