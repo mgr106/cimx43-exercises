@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #212121;
+  max-width: 1300px;
+  color: white;
+  padding-left: 15px;
+
+    cursor: URL(https://i.postimg.cc/0jZkRKVD/052dd0c023d9db3d5244875791c71c54-pixilated-arrow-cursor-by-vexels.png); /* IE */
+   
+}
+
+nav {
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #1db954;
+  padding: 0px 2px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+footer {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+
+
+
+
+.navigation {
+  margin-bottom: -15px;
+  text-decoration: underline;
+}
+.me {
+  max-width: 150px;
+}
+
+.gridcontainer2x1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: -5px;
+  margin-bottom: 10px;
+}
+
+/*image overlap HTML and CSS used from https://bricampgomez.com/blog/how-to-overlap-images-in-css/*/
+.container {
+  width: 10%;
+}
+
+.image-stack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  width: 100%;
+  display: block;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%;
+  z-index: 1;
+  width: 100%;
+  display: block;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.spotifycode {
+  max-width: 65%;
+}
