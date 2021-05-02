@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&display=swap");
 
+* {
+
+    max-width: 1300px;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
-  background-color: #212121;
-  max-width: 1300px;
   color: white;
   padding-left: 15px;
-
-    cursor: URL(https://i.postimg.cc/0jZkRKVD/052dd0c023d9db3d5244875791c71c54-pixilated-arrow-cursor-by-vexels.png); /* IE */
+  background-color: #212121;
    
 }
 
@@ -39,7 +41,11 @@ footer {
   margin-top: 60px;
 }
 
-
+.container{
+    width: 1000px;
+height: 1000px;
+    cursor: none;
+}
 
 
 
