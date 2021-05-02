@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&display=swap");
 
 * {
-
+  
     max-width: 1300px;
 }
 
@@ -10,7 +10,7 @@ body {
   color: white;
   padding-left: 15px;
   background-color: #212121;
-   
+  /* cursor: none; */
 }
 
 nav {
@@ -40,12 +40,20 @@ footer {
   font-size: 12px;
   margin-top: 60px;
 }
-
-.container{
-    width: 1000px;
-height: 1000px;
-    cursor: none;
+img {
+    max-width: 100%;
 }
+
+#smile {
+    width: 80%;
+    position: absolute;
+    }
+
+/* .container{
+width: fit-content;
+height: fit-content; } */
+
+
 
 
 
