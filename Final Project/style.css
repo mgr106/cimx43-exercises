@@ -109,8 +109,20 @@ align-items: bottom;}
 }
 
 
-#links:hover {
-    text-decoration: none;
-    padding: none;
-    background-color: none;
+
+@media only screen and (max-width: 600px) {
+  
+  nav {
+    flex-direction: column;
+  }
+
+  .gridcontainer2x1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: left;
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+
 }
