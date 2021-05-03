@@ -71,7 +71,8 @@ height: fit-content; } */
   grid-template-rows: 1fr;
   gap: -5px;
   margin-bottom: 10px;
-align-items: bottom;}
+align-items: end;
+}
 
 .gridcontainer2x1_top {
 
