@@ -45,11 +45,7 @@ img {
     max-width: 100%;
 }
 
-#smile {
-    width: 80%;
-    position: absolute;
-    cursor: grab;
-    }
+
 
 /* .container{
 width: fit-content;
@@ -119,8 +115,51 @@ align-items: end;
 }
 
 
+.title {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  column-gap: -20px;
+}
 
-@media only screen and (max-width: 600px) {
+.spotify {
+  max-width: 15%;
+    margin-left: -80px;
+    margin-top: 15px;
+  }
+
+/* rotate state code */
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* end rotate code  */
+
+
+
+
+#smile {
+  width: 80%;
+  position: absolute;
+  cursor: grab;
+  }
+
+  #move {
+    width: 80%;
+    position: absolute;
+    cursor: grab;
+    }
+
+@media only screen and (max-width: 800px) {
   
   nav {
     flex-direction: column;
