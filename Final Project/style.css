@@ -23,8 +23,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: #1db954;
-  padding: 0px 2px;
+  /* background-color: #1db954;
+  padding: 0px 2px; */
+  text-decoration: underline;
 }
 
 h1 {
@@ -110,5 +111,6 @@ align-items: bottom;}
 
 #links:hover {
     text-decoration: none;
-    color: none;
+    padding: none;
+    background-color: none;
 }
