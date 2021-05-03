@@ -18,8 +18,8 @@ smile.addEventListener("mousedown", initialClick, false);
 // this is the position of the cursor upon pick up of image
 function move(e){
 
-  var newX = e.clientX - 55;
-  var newY = e.clientY - 300;
+  var newX = e.clientX - 240;
+  var newY = e.clientY - 200;
 
   image.style.left = newX + "px";
   image.style.top = newY + "px";
