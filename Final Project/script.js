@@ -44,4 +44,3 @@ function initialClick(e) {
 
 }
 
-document.getElementById('hide_id').style.cursor = 'none';
