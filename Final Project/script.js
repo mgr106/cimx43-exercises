@@ -9,7 +9,7 @@ smile.addEventListener("mousedown", initialClick, false);
 function move(e){
 
   var newX = e.clientX - 240;
-  var newY = e.clientY - 200;
+  var newY = e.clientY - 240;
 
   image.style.left = newX + "px";
   image.style.top = newY + "px";
@@ -47,7 +47,7 @@ smile.addEventListener("mousedown", initialClick, false);
 function move(e){
 
   var newX = e.clientX - 240;
-  var newY = e.clientY - 200;
+  var newY = e.clientY - 240;
 
   image.style.left = newX + "px";
   image.style.top = newY + "px";

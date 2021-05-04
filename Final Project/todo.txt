@@ -1,5 +1,3 @@
-FIX RESPONSIVENESS I SEE UR SPOTIFY LOGO GOING INTO THE H1
-CHANGING THE MARGIN IS THE ISSUE
 
 add link to profile of spotufy in fun and pretty way?
 

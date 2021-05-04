@@ -121,7 +121,6 @@ align-items: end;
   grid-template-rows: 1fr;
   align-items: center;
   column-gap: -20px;
-  max-width: fit-content;
 }
 
 .spotify {
@@ -182,5 +181,20 @@ align-items: end;
     grid-template-rows: auto;
   
   }
+  
+  #smile {
+    width: 80%;
+    position: fixed;
+    cursor: grab;
+    }
+  
+    #move {
+      width: 80%;
+      position: fixed;
+      cursor: grab;
+      }
+
+
 
 }
+
