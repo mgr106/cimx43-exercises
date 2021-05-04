@@ -184,13 +184,13 @@ align-items: end;
   
   #smile {
     width: 80%;
-    position: fixed;
+    position: sticky;
     cursor: grab;
     }
   
     #move {
       width: 80%;
-      position: fixed;
+      position: sticky;
       cursor: grab;
       }
 
