@@ -121,11 +121,12 @@ align-items: end;
   grid-template-rows: 1fr;
   align-items: center;
   column-gap: -20px;
+  max-width: fit-content;
 }
 
 .spotify {
   max-width: 15%;
-    margin-left: -80px;
+    /* margin-left: -80px; */
     margin-top: 15px;
   }
 
