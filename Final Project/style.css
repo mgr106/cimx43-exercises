@@ -46,9 +46,6 @@ img {
 
 
 
-/* .container{
-width: fit-content;
-height: fit-content; } */
 
 
 
@@ -180,15 +177,26 @@ align-items: end;
     grid-template-rows: auto;
   
   }
-  
+
+  .title {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;  }
+
+    
+
+ .spotify {
+margin-bottom: 25px ;
+    }
+
   #smile {
-    width: 80%;
+    width: 120%;
     position: sticky;
     cursor: grab;
     }
   
     #move {
-      width: 80%;
+      width: 120%;
       position: sticky;
       cursor: grab;
       }
