@@ -118,7 +118,7 @@ align-items: end;
 .image-stack__item--top {
   grid-row: 1;
   grid-column: 1 / span 8;
-  padding-top: 20%;
+  padding-top: 55%;
   z-index: 1;
   width: 100%;
   display: block;
@@ -171,7 +171,7 @@ width: 299px;
 
 
 #smile {
-  width: 80%;
+  width: 50%;
   position: absolute;
   cursor: grab;
   }
