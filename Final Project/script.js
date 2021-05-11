@@ -1,3 +1,16 @@
+// cursor javascript
+let mouseCursor = document.querySelector(".cursor")
+let lis = document.querySelectorAll("p")
+
+window.addEventListener("mousemove", cursor)
+
+function cursor(e) {
+  mouseCursor.style.top = e.pageY + "px"
+  mouseCursor.style.left = e.pageX +"px"
+}
+// end cursor javascript
+
+
 var smile = document.getElementById("smile");
 
 var moving = false;
