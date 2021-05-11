@@ -48,12 +48,28 @@ img {
 }
 
 
+.card {
+  position: relative;
+  display: inline-block;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+
 
 .cursor {
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
   max-width: 5%;
+  z-index: 100;
 }
 
 
